@@ -1,0 +1,24 @@
+{
+  "name": "server-presentes",
+  "version": "1.0.50",
+  "scripts": {
+    "build": "bun build --target=bun --compile src/index.ts --outfile ./dist/server",
+    "db:migrate": "bun --bun drizzle-kit migrate --config=drizzle.config.ts",
+    "db:generate": "bun --bun drizzle-kit generate --config=drizzle.config.ts",
+    "db:push": "bun --bun drizzle-kit push --config=drizzle.config.ts",
+    "auth:generate": "bun x --bun auth generate --config='src/infrastructure/auth.ts' --output='src/infrastructure/db/schema/auth.ts'"
+  },
+  "dependencies": {
+    "@elysia/cors": "^1.4.2",
+    "@elysia/openapi": "^1.4.16",
+    "drizzle-orm": "^1.0.0-rc.4",
+    "elysia": "latest",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "bun-types": "latest",
+    "drizzle-kit": "^1.0.0-rc.4"
+  },
+  "module": "src/index.js"
+}

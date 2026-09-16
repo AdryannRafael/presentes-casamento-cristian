@@ -1,0 +1,551 @@
+[
+  {
+    "id": 1,
+    "titulo": "Kit de organização da casa",
+    "categoria": "Casa e decoração",
+    "preco": 80.0,
+    "imagemUrl": "https://down-br.img.susercontent.com/file/br-11134207-7qukw-liouq2e15bcg50",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 2,
+    "titulo": "Jogo de copos",
+    "categoria": "Casa e decoração",
+    "preco": 80.0,
+    "imagemUrl": "https://cdn.leroymerlin.com.br/products/jogo_de_copos_em_vidro_340ml_carrefour_home_ho39234_1570834616_6946_600x600.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 3,
+    "titulo": "Jogo de taças",
+    "categoria": "Casa e decoração",
+    "preco": 100.0,
+    "imagemUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-m65ehfxkbej44c",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 4,
+    "titulo": "Jogo de pratos",
+    "categoria": "Casa e decoração",
+    "preco": 120.0,
+    "imagemUrl": "https://product-hub-prd.madeiramadeira.com.br/977386448/images/9fececd7-3f41-4206-8b2c-aeae62267198enseada.jpg?ims=fit-in%2F128x128",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 5,
+    "titulo": "Jogo de talheres",
+    "categoria": "Casa e decoração",
+    "preco": 120.0,
+    "imagemUrl": "https://m.media-amazon.com/images/I/61NlXehlnBL._AC_SL1094_.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 6,
+    "titulo": "Kit de potes",
+    "categoria": "Casa e decoração",
+    "preco": 100.0,
+    "imagemUrl": "https://down-br.img.susercontent.com/file/br-11134207-7r98o-lzdl42knx6pt65",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 7,
+    "titulo": "Jogo de toalhas",
+    "categoria": "Casa e decoração",
+    "preco": 150.0,
+    "imagemUrl": "https://www.fazaboa.com.br/ofertas/shopee/7929953",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 8,
+    "titulo": "Jogo de cama",
+    "categoria": "Casa e decoração",
+    "preco": 180.0,
+    "imagemUrl": "https://www.casabergan.com.br/produto/jogo-de-cama-casal-karsten-tom-100-algodao-fio-penteado-percal-200-fios-4-pecas-152551",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 9,
+    "titulo": "Edredom",
+    "categoria": "Casa e decoração",
+    "preco": 200.0,
+    "imagemUrl": "https://www.leroymerlin.com.br/kit-edredom-liso-milano-dupla-face-casal-padrao-03-pecas-percal-200-fios-cinza_1571000153",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 10,
+    "titulo": "Cortina",
+    "categoria": "Casa e decoração",
+    "preco": 200.0,
+    "imagemUrl": "https://www.leroymerlin.com.br/cortina-para-sala-quarto-corta-luz-3%2C00m-x-2%2C30m_1571483014",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 11,
+    "titulo": "Tapete para a sala",
+    "categoria": "Casa e decoração",
+    "preco": 200.0,
+    "imagemUrl": "https://www.leroymerlin.com.br/tapete-para-sala-classic-rhodes-04-gelo-2%2C50x3%2C00m_1571193072",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 12,
+    "titulo": "Espelho decorativo",
+    "categoria": "Casa e decoração",
+    "preco": 180.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 13,
+    "titulo": "Luminária",
+    "categoria": "Casa e decoração",
+    "preco": 150.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 14,
+    "titulo": "Kit de decoração",
+    "categoria": "Casa e decoração",
+    "preco": 250.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 15,
+    "titulo": "Mesa posta",
+    "categoria": "Casa e decoração",
+    "preco": 250.0,
+    "imagemUrl": "https://www.fabrispuma.com.br/mesa-de-jantar-living-com-6-cadeiras-class-bege-160cm",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 16,
+    "titulo": "Jogo de panelas",
+    "categoria": "Cozinha",
+    "preco": 200.0,
+    "imagemUrl": "https://www.leroymerlin.com.br/jogo-de-panelas-tramontina-turim-antiaderente-grafite-10-pecas_1567803759",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 17,
+    "titulo": "Jogo de frigideiras",
+    "categoria": "Cozinha",
+    "preco": 150.0,
+    "imagemUrl": "https://americanas.vtexassets.com/arquivos/ids/543478-768-auto/4942949818_1SZ.webp?quality=9&v=638750836111700000",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 18,
+    "titulo": "Panela de pressão",
+    "categoria": "Cozinha",
+    "preco": 120.0,
+    "imagemUrl": "https://www.leroymerlin.com.br/panela-de-pressao-tramontina-brava-em-aco-inox-com-fundo-triplo-20cm-4%2C5l_92443246",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 19,
+    "titulo": "Kit de utensílios de cozinha",
+    "categoria": "Cozinha",
+    "preco": 100.0,
+    "imagemUrl": "https://product-hub-prd.madeiramadeira.com.br/742081336/images/60e2ba41-03fb-4688-9530-0dd47bc4f6aa540bc42e4ab30931847081ceb.jpeg?ims=fit-in%2F128x128",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 20,
+    "titulo": "Sanduicheira",
+    "categoria": "Cozinha",
+    "preco": 120.0,
+    "imagemUrl": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill/p",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 21,
+    "titulo": "Liquidificador",
+    "categoria": "Cozinha",
+    "preco": 150.0,
+    "imagemUrl": "https://www.mondial.com.br/liquidificador-mondial-turbo-inox-l-1200-ri/p",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 22,
+    "titulo": "Cafeteira",
+    "categoria": "Cozinha",
+    "preco": 180.0,
+    "imagemUrl": "https://www.magazineluiza.com.br/cafeteira-eletrica-britania-cp15-15-cafes-preto/p/023511600/ep/cafe/",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 23,
+    "titulo": "Chaleira elétrica",
+    "categoria": "Cozinha",
+    "preco": 120.0,
+    "imagemUrl": "https://www.britania.com.br/chaleira-eletrica-britania-bch02pi-18l/p",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 24,
+    "titulo": "Air Fryer",
+    "categoria": "Cozinha",
+    "preco": 350.0,
+    "imagemUrl": "https://www.bristol.com.py/catalogo/freidora-air-fryer-electrolux-5-litros-1700w_BS12166_BS12166",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 25,
+    "titulo": "Batedeira",
+    "categoria": "Cozinha",
+    "preco": 200.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1578269712536-9b1e4a8e8e8e?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 26,
+    "titulo": "Processador de alimentos",
+    "categoria": "Cozinha",
+    "preco": 250.0,
+    "imagemUrl": "https://shopee.com.br/PROCESSADOR-ELECTROLUX-DE-ALIMENTOS-3-EM-1-EFFICIENT-PRETO-300W-127V-EFP500-i.1238909313.18897992175",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 27,
+    "titulo": "Jogo de travessas",
+    "categoria": "Cozinha",
+    "preco": 150.0,
+    "imagemUrl": "https://www.madeiramadeira.com.br/jogo-3-assadeiras-retangulares-1-6l-travessas-refratarias-pequenas-de-vidro-borossilicato-marinex-239941917.html",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 28,
+    "titulo": "Kit churrasco",
+    "categoria": "Cozinha",
+    "preco": 200.0,
+    "imagemUrl": "https://www.lojadochurrasqueiro.com.br/kit-churrasco/kit-churrasco-10-pecas",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 29,
+    "titulo": "Churrasqueira",
+    "categoria": "Cozinha",
+    "preco": 300.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 30,
+    "titulo": "Eletrodoméstico para a cozinha",
+    "categoria": "Cozinha",
+    "preco": 400.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 31,
+    "titulo": "Ferro de passar",
+    "categoria": "Casa e eletros",
+    "preco": 120.0,
+    "imagemUrl": "https://www.esfera.com.vc/p/ferro-de-passar-roupa-a-vapor-e-a-seco-electrolux-efficient-esi10-azul/e101223290",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 32,
+    "titulo": "Tábua de passar",
+    "categoria": "Casa e eletros",
+    "preco": 100.0,
+    "imagemUrl": "https://cdn.leroymerlin.com.br/products/tabua_de_passar_roupa_1001_top_plus_em_aco_robusta_e_resisten_1570507593_d437_140x140.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 33,
+    "titulo": "Aspirador de pó",
+    "categoria": "Casa e eletros",
+    "preco": 300.0,
+    "imagemUrl": "https://www.madeiramadeira.com.br/aspirador-de-po-vertical-2-em-1-1250w-britania-bas1290v-220v-510192295.html",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 34,
+    "titulo": "Ventilador",
+    "categoria": "Casa e eletros",
+    "preco": 250.0,
+    "imagemUrl": "https://www.taqi.com.br/ventilador-de-mesa-bvt400-maxx-force-preto-220v/226625",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 35,
+    "titulo": "Kit de limpeza",
+    "categoria": "Casa e eletros",
+    "preco": 100.0,
+    "imagemUrl": "https://www.columbiastore.com.br/kit-limpeza-completo-agua-sanitaria-alcool-gel-detergente-limpador-multiuso-sabao-em-pedra-e-sabao-em-po",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 36,
+    "titulo": "Varal",
+    "categoria": "Casa e eletros",
+    "preco": 100.0,
+    "imagemUrl": "https://images.tcdn.com.br/img/img_prod/471364/varal_de_chao_giratorio_aluminio_branco_fixo_2_72m_diametro_x_2_16m_altura_776_6_21d6a93542c48dcd40168e8e530a4782.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 37,
+    "titulo": "Micro-ondas",
+    "categoria": "Casa e eletros",
+    "preco": 500.0,
+    "imagemUrl": "https://www.megamaisdistribuidora.com.br/11/microondas/microondas-electrolux-20-litros-mtd30-220v-branco",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 38,
+    "titulo": "Máquina de café",
+    "categoria": "Casa e eletros",
+    "preco": 500.0,
+    "imagemUrl": "https://www.alfamaquinasdecafe.com.br/maquinas-novas/cafeteira-espresso-automatica-serie-1200-philips-walita-ep122015-preta",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 39,
+    "titulo": "Eletrodoméstico para a casa",
+    "categoria": "Casa e eletros",
+    "preco": 500.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 40,
+    "titulo": "Contribuição para móveis da casa",
+    "categoria": "Casa e eletros",
+    "preco": 600.0,
+    "imagemUrl": "https://www.fabrispuma.com.br/mesa-de-jantar-living-com-6-cadeiras-class-bege-160cm",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 41,
+    "titulo": "Jantar romântico",
+    "categoria": "Presentes para o casal",
+    "preco": 150.0,
+    "imagemUrl": "https://peterburg2.ru/uploads/25/10/27/ga11_%D1%81%D0%B2%D0%B8%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 42,
+    "titulo": "Noite de pizza",
+    "categoria": "Presentes para o casal",
+    "preco": 100.0,
+    "imagemUrl": "https://static.evolution24.media/clients/client_93/paar-pizza-zuhause-pizzaofen_1cde1a98e7afa77702b9af5b4101a294.webp",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 43,
+    "titulo": "Café da manhã especial",
+    "categoria": "Presentes para o casal",
+    "preco": 120.0,
+    "imagemUrl": "https://media.adeo.com/mkp/e0090cf948042273405eb3b778c5865d/media.jpg?fit=bounds&format=jpg&height=650&quality=80&width=650",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 44,
+    "titulo": "Date do casal",
+    "categoria": "Presentes para o casal",
+    "preco": 200.0,
+    "imagemUrl": "https://peterburg2.ru/uploads/25/10/27/ga11_%D1%81%D0%B2%D0%B8%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 45,
+    "titulo": "Passeio do casal",
+    "categoria": "Presentes para o casal",
+    "preco": 250.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 46,
+    "titulo": "Final de semana do casal",
+    "categoria": "Presentes para o casal",
+    "preco": 400.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 47,
+    "titulo": "Experiência especial para o casal",
+    "categoria": "Presentes para o casal",
+    "preco": 500.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 48,
+    "titulo": "Ajuda para alimentação na lua de mel",
+    "categoria": "Lua de mel",
+    "preco": 200.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 49,
+    "titulo": "Ajuda para transporte",
+    "categoria": "Lua de mel",
+    "preco": 250.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 50,
+    "titulo": "Passeio na lua de mel",
+    "categoria": "Lua de mel",
+    "preco": 300.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 51,
+    "titulo": "Hospedagem",
+    "categoria": "Lua de mel",
+    "preco": 400.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 52,
+    "titulo": "Experiência especial na lua de mel",
+    "categoria": "Lua de mel",
+    "preco": 500.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 53,
+    "titulo": "Cota para a lua de mel",
+    "categoria": "Lua de mel",
+    "preco": 600.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 54,
+    "titulo": "Cota especial para a lua de mel",
+    "categoria": "Lua de mel",
+    "preco": 700.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 55,
+    "titulo": "Cota especial para a lua de mel",
+    "categoria": "Lua de mel",
+    "preco": 800.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 56,
+    "titulo": "Cota especial para a lua de mel",
+    "categoria": "Lua de mel",
+    "preco": 1000.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 57,
+    "titulo": "Contribuição para os móveis",
+    "categoria": "Novo lar",
+    "preco": 500.0,
+    "imagemUrl": "https://www.fabrispuma.com.br/mesa-de-jantar-living-com-6-cadeiras-class-bege-160cm",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 58,
+    "titulo": "Contribuição para eletrodomésticos",
+    "categoria": "Novo lar",
+    "preco": 600.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 59,
+    "titulo": "Contribuição para nossa casa",
+    "categoria": "Novo lar",
+    "preco": 700.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 60,
+    "titulo": "Presente especial para o novo lar",
+    "categoria": "Novo lar",
+    "preco": 800.0,
+    "imagemUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=480&q=80",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  },
+  {
+    "id": 61,
+    "titulo": "Contribuição especial para o casal",
+    "categoria": "Novo lar",
+    "preco": 1000.0,
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
+    "quantidadeTotal": 1,
+    "quantidadeReservada": 0
+  }
+]
