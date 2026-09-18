@@ -1,4 +1,4 @@
-import { Instant, InstantVo } from "@/src/core/instant.vo";
+import { Instant, InstantVo } from "../instant.vo";
 import { NatureErrors } from "./NatureErrors.enum";
 import {
   LoadGetSpecificity,

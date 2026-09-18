@@ -1,4 +1,4 @@
-export const presentes = [
+[
   {
     "id": 1,
     "titulo": "Kit de organização da casa",
@@ -157,7 +157,7 @@ export const presentes = [
     "titulo": "Panela de pressão",
     "categoria": "Cozinha",
     "preco": 120.0,
-    "imagemUrl": "https://brinox.vtexassets.com/arquivos/ids/287035/promocao-panela-pressao-botanika-brinox-antiaderente-ceramic-life.png?v=639238891173730000",
+    "imagemUrl": "https://www.leroymerlin.com.br/panela-de-pressao-tramontina-brava-em-aco-inox-com-fundo-triplo-20cm-4%2C5l_92443246",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -166,7 +166,7 @@ export const presentes = [
     "titulo": "Kit de utensílios de cozinha",
     "categoria": "Cozinha",
     "preco": 100.0,
-    "imagemUrl": "https://m.media-amazon.com/images/I/61qGF7R8u4L.jpg",
+    "imagemUrl": "https://product-hub-prd.madeiramadeira.com.br/742081336/images/60e2ba41-03fb-4688-9530-0dd47bc4f6aa540bc42e4ab30931847081ceb.jpeg?ims=fit-in%2F128x128",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -175,7 +175,7 @@ export const presentes = [
     "titulo": "Sanduicheira",
     "categoria": "Cozinha",
     "preco": 120.0,
-    "imagemUrl": "https://images.tcdn.com.br/img/img_prod/836117/sanduicheira_fast_gril_toast_127v_804044_blackbull_1_20260311152439_88e44b3c5151.jpg",
+    "imagemUrl": "https://www.cadence.com.br/sanduicheira-eletrica-cadence-toast-grill/p",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -184,7 +184,7 @@ export const presentes = [
     "titulo": "Liquidificador",
     "categoria": "Cozinha",
     "preco": 150.0,
-    "imagemUrl": "https://imgs.pontofrio.com.br/55071634/1xg.jpg?imwidth=500",
+    "imagemUrl": "https://www.mondial.com.br/liquidificador-mondial-turbo-inox-l-1200-ri/p",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -193,7 +193,7 @@ export const presentes = [
     "titulo": "Cafeteira",
     "categoria": "Cozinha",
     "preco": 180.0,
-    "imagemUrl": "https://http2.mlstatic.com/D_NQ_NP_602098-CBT114433037095_072026-O-cafeteira-do-oriente-medio-com-cesta-laser-dourada-de-12l.webp",
+    "imagemUrl": "https://www.magazineluiza.com.br/cafeteira-eletrica-britania-cp15-15-cafes-preto/p/023511600/ep/cafe/",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -202,7 +202,7 @@ export const presentes = [
     "titulo": "Chaleira elétrica",
     "categoria": "Cozinha",
     "preco": 120.0,
-    "imagemUrl": "https://mundoza.cdn.magazord.com.br/img/2025/06/produto/16042/01-chaleira-eletrica-em-porcelana-elegance-verde-1-5l-220v-tuut.png?ims=600x600",
+    "imagemUrl": "https://www.britania.com.br/chaleira-eletrica-britania-bch02pi-18l/p",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -211,7 +211,7 @@ export const presentes = [
     "titulo": "Air Fryer",
     "categoria": "Cozinha",
     "preco": 350.0,
-    "imagemUrl": "https://gazin-images.gazin.com.br/FvUHVP2VyngzEi0HUgXjMkudEHg=/1920x/filters:format(webp):quality(75)/https://gazin-marketplace.s3.amazonaws.com/midias/imagens/2024/11/fritadeira-eletrica-air-fryer-mondial-pratic-af-36-36l-1500w-162411030410.jpg",
+    "imagemUrl": "https://www.bristol.com.py/catalogo/freidora-air-fryer-electrolux-5-litros-1700w_BS12166_BS12166",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -220,7 +220,7 @@ export const presentes = [
     "titulo": "Batedeira",
     "categoria": "Cozinha",
     "preco": 200.0,
-    "imagemUrl": "https://letseatit.com.br/cdn/shop/files/Batedeira-Planetaria-Vintage-Verde-127V-600W-Ariete.webp?v=1765238053&width=960",
+    "imagemUrl": "https://images.unsplash.com/photo-1578269712536-9b1e4a8e8e8e?auto=format&fit=crop&w=480&q=80",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -229,7 +229,7 @@ export const presentes = [
     "titulo": "Processador de alimentos",
     "categoria": "Cozinha",
     "preco": 250.0,
-    "imagemUrl": "https://letseatit.com.br/cdn/shop/files/Processador-de-Alimentos-Vintage-Verde-220V-400W-Ariete.webp?v=1765858864&width=960",
+    "imagemUrl": "https://shopee.com.br/PROCESSADOR-ELECTROLUX-DE-ALIMENTOS-3-EM-1-EFFICIENT-PRETO-300W-127V-EFP500-i.1238909313.18897992175",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -238,7 +238,7 @@ export const presentes = [
     "titulo": "Jogo de travessas",
     "categoria": "Cozinha",
     "preco": 150.0,
-    "imagemUrl": "https://letseatit.com.br/cdn/shop/files/Conjunto-2-Travessas-Retangulares-Ceramica-Verde-Linha-Singular.webp?v=1745881872&width=960",
+    "imagemUrl": "https://www.madeiramadeira.com.br/jogo-3-assadeiras-retangulares-1-6l-travessas-refratarias-pequenas-de-vidro-borossilicato-marinex-239941917.html",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -247,7 +247,7 @@ export const presentes = [
     "titulo": "Kit churrasco",
     "categoria": "Cozinha",
     "preco": 200.0,
-    "imagemUrl": "https://70730.cdn.simplo7.net/static/70730/sku/brindes-dia-dos-pais-brinde-presente-dia-dos-pais-personalizado-kit-churrasco-caixa-kraft-2-pecas-sp94139-pai--p-1751635952132.jpg",
+    "imagemUrl": "https://www.lojadochurrasqueiro.com.br/kit-churrasco/kit-churrasco-10-pecas",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -256,7 +256,7 @@ export const presentes = [
     "titulo": "Churrasqueira",
     "categoria": "Cozinha",
     "preco": 300.0,
-    "imagemUrl": "https://www.hfmultiferramentas.com.br/media/catalog/product/cache/06abfe5b608d6745e7579e4bf119a9f3/j/y/jy-022-c_portatil_grill.jpg",
+    "imagemUrl": "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=480&q=80",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -265,7 +265,7 @@ export const presentes = [
     "titulo": "Eletrodoméstico para a cozinha",
     "categoria": "Cozinha",
     "preco": 400.0,
-    "imagemUrl": "https://lojasimperio-s3.s3.amazonaws.com/lojasimp/assets/products-images/eb1ebea6-b6f1-41ca-bef3-1c4d3d122613.webp",
+    "imagemUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=480&q=80",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -274,7 +274,7 @@ export const presentes = [
     "titulo": "Ferro de passar",
     "categoria": "Casa e eletros",
     "preco": 120.0,
-    "imagemUrl": "https://images.tcdn.com.br/img/img_prod/1140357/ferro_de_passar_a_seco_mondial_220v_branco_fsn_55_w_1559_1_6495f6dff8a740b9ce212dbdcfff8dff.jpg",
+    "imagemUrl": "https://www.esfera.com.vc/p/ferro-de-passar-roupa-a-vapor-e-a-seco-electrolux-efficient-esi10-azul/e101223290",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -292,7 +292,7 @@ export const presentes = [
     "titulo": "Aspirador de pó",
     "categoria": "Casa e eletros",
     "preco": 300.0,
-    "imagemUrl": "https://electrolux.vtexassets.com/arquivos/ids/214747/Aspirador_de_Po_Vertical_Electrolux_Lithium_ERG21_Detalhe1.jpg?v=638802312227900000",
+    "imagemUrl": "https://www.madeiramadeira.com.br/aspirador-de-po-vertical-2-em-1-1250w-britania-bas1290v-220v-510192295.html",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -301,7 +301,7 @@ export const presentes = [
     "titulo": "Ventilador",
     "categoria": "Casa e eletros",
     "preco": 250.0,
-    "imagemUrl": "https://www.ventisilva.com.br/galeria/produtos/gra/5_vcl-branco-2021_1700354954.jpg",
+    "imagemUrl": "https://www.taqi.com.br/ventilador-de-mesa-bvt400-maxx-force-preto-220v/226625",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -310,7 +310,7 @@ export const presentes = [
     "titulo": "Kit de limpeza",
     "categoria": "Casa e eletros",
     "preco": 100.0,
-    "imagemUrl": "https://http2.mlstatic.com/D_NQ_NP_620453-MLA112582985627_062026-O.webp",
+    "imagemUrl": "https://www.columbiastore.com.br/kit-limpeza-completo-agua-sanitaria-alcool-gel-detergente-limpador-multiuso-sabao-em-pedra-e-sabao-em-po",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -328,7 +328,7 @@ export const presentes = [
     "titulo": "Micro-ondas",
     "categoria": "Casa e eletros",
     "preco": 500.0,
-    "imagemUrl": "https://m.media-amazon.com/images/I/41KDVDZYBeL._AC_UF894,1000_QL80_.jpg",
+    "imagemUrl": "https://www.megamaisdistribuidora.com.br/11/microondas/microondas-electrolux-20-litros-mtd30-220v-branco",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -346,7 +346,7 @@ export const presentes = [
     "titulo": "Eletrodoméstico para a casa",
     "categoria": "Casa e eletros",
     "preco": 500.0,
-    "imagemUrl": "https://blog.colombo.com.br/wp-content/uploads/2024/03/capaeletrodom-810x608.jpg",
+    "imagemUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=480&q=80",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -355,7 +355,7 @@ export const presentes = [
     "titulo": "Contribuição para móveis da casa",
     "categoria": "Casa e eletros",
     "preco": 600.0,
-    "imagemUrl": "https://finger.ind.br/wp-content/uploads/2021/05/post_thumbnail-51eb66895935434b71fed8c698379358.jpeg",
+    "imagemUrl": "https://www.fabrispuma.com.br/mesa-de-jantar-living-com-6-cadeiras-class-bege-160cm",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -373,7 +373,7 @@ export const presentes = [
     "titulo": "Noite de pizza",
     "categoria": "Presentes para o casal",
     "preco": 100.0,
-    "imagemUrl": "https://dicasdecor.com/wp-content/uploads/2019/07/61243571_347994892582866_9202404268865230033_n1-1024x1024.jpg",
+    "imagemUrl": "https://static.evolution24.media/clients/client_93/paar-pizza-zuhause-pizzaofen_1cde1a98e7afa77702b9af5b4101a294.webp",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -382,7 +382,7 @@ export const presentes = [
     "titulo": "Café da manhã especial",
     "categoria": "Presentes para o casal",
     "preco": 120.0,
-    "imagemUrl": "https://i.pinimg.com/originals/e1/4b/7f/e14b7fa677a60d9996f5120dcc6d7398.jpg",
+    "imagemUrl": "https://media.adeo.com/mkp/e0090cf948042273405eb3b778c5865d/media.jpg?fit=bounds&format=jpg&height=650&quality=80&width=650",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -391,7 +391,7 @@ export const presentes = [
     "titulo": "Date do casal",
     "categoria": "Presentes para o casal",
     "preco": 200.0,
-    "imagemUrl": "https://img.magnific.com/fotos-gratis/casal-de-maos-dadas-na-noite-de-dia-dos-namorados-em-um-restaurante_1303-20351.jpg?semt=ais_hybrid&w=740&q=80",
+    "imagemUrl": "https://peterburg2.ru/uploads/25/10/27/ga11_%D1%81%D0%B2%D0%B8%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -400,7 +400,7 @@ export const presentes = [
     "titulo": "Passeio do casal",
     "categoria": "Presentes para o casal",
     "preco": 250.0,
-    "imagemUrl": "https://passagenspromo.com.br/blog/wp-content/uploads/2018/12/Viajar-a-dois-1.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -409,7 +409,7 @@ export const presentes = [
     "titulo": "Final de semana do casal",
     "categoria": "Presentes para o casal",
     "preco": 400.0,
-    "imagemUrl": "https://static.wixstatic.com/media/f167d8_267599f19fc046a383db12b7466f4b13~mv2.jpg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f167d8_267599f19fc046a383db12b7466f4b13~mv2.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -418,7 +418,7 @@ export const presentes = [
     "titulo": "Experiência especial para o casal",
     "categoria": "Presentes para o casal",
     "preco": 500.0,
-    "imagemUrl": "https://cabanasportaldaserra.site.hotelariaweb.com/media/cabanasportaldaserra/mediafiles/0145_zvVKUmt.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -427,7 +427,7 @@ export const presentes = [
     "titulo": "Ajuda para alimentação na lua de mel",
     "categoria": "Lua de mel",
     "preco": 200.0,
-    "imagemUrl": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/89E2/production/_106589253_amino.jpg.webp",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -436,7 +436,7 @@ export const presentes = [
     "titulo": "Ajuda para transporte",
     "categoria": "Lua de mel",
     "preco": 250.0,
-    "imagemUrl": "https://www.diariozonanorte.com.br/wp-content/uploads/2024/04/taxi-capa.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -445,7 +445,7 @@ export const presentes = [
     "titulo": "Passeio na lua de mel",
     "categoria": "Lua de mel",
     "preco": 300.0,
-    "imagemUrl": "https://www.daninoce.com.br/wp-content/uploads/2019/01/10-destinos-para-a-lua-de-mel-dos-sonhos-dani-noce-6.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -463,7 +463,7 @@ export const presentes = [
     "titulo": "Experiência especial na lua de mel",
     "categoria": "Lua de mel",
     "preco": 500.0,
-    "imagemUrl": "https://images.tcdn.com.br/img/img_prod/774329/noticia_11133399865f5138282a5ce.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -472,7 +472,7 @@ export const presentes = [
     "titulo": "Cota para a lua de mel",
     "categoria": "Lua de mel",
     "preco": 600.0,
-    "imagemUrl": "https://www.noivinhas.com.br/wp-content/uploads/2019/08/como-funcionam-cotas-lua-de-mel-1.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -481,7 +481,7 @@ export const presentes = [
     "titulo": "Cota especial para a lua de mel",
     "categoria": "Lua de mel",
     "preco": 700.0,
-    "imagemUrl": "https://www.noivinhas.com.br/wp-content/uploads/2019/08/como-funcionam-cotas-lua-de-mel-1.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -490,7 +490,7 @@ export const presentes = [
     "titulo": "Cota especial para a lua de mel",
     "categoria": "Lua de mel",
     "preco": 800.0,
-    "imagemUrl": "https://www.noivinhas.com.br/wp-content/uploads/2019/08/como-funcionam-cotas-lua-de-mel-1.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -499,7 +499,7 @@ export const presentes = [
     "titulo": "Cota especial para a lua de mel",
     "categoria": "Lua de mel",
     "preco": 1000.0,
-    "imagemUrl": "https://www.noivinhas.com.br/wp-content/uploads/2019/08/como-funcionam-cotas-lua-de-mel-1.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -508,7 +508,7 @@ export const presentes = [
     "titulo": "Contribuição para os móveis",
     "categoria": "Novo lar",
     "preco": 500.0,
-    "imagemUrl": "https://i.pinimg.com/736x/60/bd/d8/60bdd8d816c5a2dbd4bc6c51900cce29.jpg",
+    "imagemUrl": "https://www.fabrispuma.com.br/mesa-de-jantar-living-com-6-cadeiras-class-bege-160cm",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -517,7 +517,7 @@ export const presentes = [
     "titulo": "Contribuição para eletrodomésticos",
     "categoria": "Novo lar",
     "preco": 600.0,
-    "imagemUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6R1Zhn_1w9Gt8BZhRaLlp1ieRDDtH8yuG0TlNwy6OW83MPsOBx8h441uN&s=10",
+    "imagemUrl": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=480&q=80",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -526,7 +526,7 @@ export const presentes = [
     "titulo": "Contribuição para nossa casa",
     "categoria": "Novo lar",
     "preco": 700.0,
-    "imagemUrl": "https://system.soprojetos.com.br/files/1720/project_page_e/PAD-COD91.jpg?1767189017",
+    "imagemUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=480&q=80",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -535,7 +535,7 @@ export const presentes = [
     "titulo": "Presente especial para o novo lar",
     "categoria": "Novo lar",
     "preco": 800.0,
-    "imagemUrl": "https://st3.depositphotos.com/1001877/19379/i/600/depositphotos_193798348-stock-photo-home-appliancess-set-of-household.jpg",
+    "imagemUrl": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=480&q=80",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   },
@@ -544,7 +544,7 @@ export const presentes = [
     "titulo": "Contribuição especial para o casal",
     "categoria": "Novo lar",
     "preco": 1000.0,
-    "imagemUrl": "https://pefmbddiag.blob.core.windows.net/cdn-blog-pi/output/img/materia/planejamento%20financeiro%20do%20casal%20como%20organizar.jpg",
+    "imagemUrl": "https://img.cdndsgni.com/preview/13303055-m.jpg",
     "quantidadeTotal": 1,
     "quantidadeReservada": 0
   }

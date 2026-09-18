@@ -1,5 +1,5 @@
 import { db } from "@/src/infra/db";
-import { convidado, presente, user } from "@/src/infra/db/schema/public";
+import { convidado, presente, user, UserModel } from "@/src/infra/db/schema/public";
 import { pipeline } from "node:stream/promises";
 import { E } from "../shared/either";
 import { NegotiateException } from "../shared/error/exceptions";
@@ -7,6 +7,7 @@ import { ReservarPresenteInput } from "../dto/reservar-presente.input";
 import { PresentsOutput } from "../dto/presentes.out";
 import { count, eq, sql } from "drizzle-orm";
 import { presentes } from "@/presentes_corrigido";
+import { PresenteRepo } from "./presentes.repo";
 
 export async function Migrate() {
   await pipeline(Readable, Writable);
@@ -49,10 +50,7 @@ export async function ListarPresentes(): E.R<PresentsOutput> {
   let dto: PresentsOutput = [];
   for (let p of presentes) {
     const { err: erroBuscaQuatidade, v: quantidadeReservado } = await E.Db(
-      db
-        .select({ count: count() })
-        .from(convidado)
-        .where(eq(convidado.presenteId, p.id)),
+      db.select({ count: count() }).from(convidado).where(eq(convidado.presenteId, p.id)),
     );
     // if (erroBuscaQuatidade) return E.Fail(erroBuscaQuatidade);
     dto.push({
@@ -62,69 +60,49 @@ export async function ListarPresentes(): E.R<PresentsOutput> {
       preco: +p.price,
       titulo: p.titulo,
       quantidadeTotal: +p.total,
-      quantidadeReservada: quantidadeReservado
-        ? quantidadeReservado[0].count
-        : 0,
+      quantidadeReservada: quantidadeReservado ? quantidadeReservado[0].count : 0,
     });
   }
   return E.Ok(dto);
 }
 
-export async function ReservarPresente(
-  dto: ReservarPresenteInput,
-): E.R<boolean> {
+export async function ReservarPresente(dto: ReservarPresenteInput): E.R<boolean> {
+  const repo = PresenteRepo(db);
   const numeroLimpo = SanitizarNumero(dto.numero);
   if (numeroLimpo.length < 9) {
-    return E.Fail(
-      new NegotiateException("Insira um número valido", "validation"),
-    );
+    return E.Fail(new NegotiateException("Insira um número valido", "validation"));
+  }
+  /**Procurando o presente a ser reservado */
+  const { err: errPresente, v: presenteEncontrado } = await repo.FindPresenteById(dto.presenteId);
+  if (errPresente) return E.Fail(errPresente);
+
+  if (!presenteEncontrado) {
+    return E.Fail(new NegotiateException("Presente não encontrado", "rule_businnes"));
   }
 
-  const { err: erroBuscaQuatidade, v: quantidadeReservado } = await E.Db(
-    db
-      .select({ count: count() })
-      .from(convidado)
-      .where(eq(convidado.presenteId, dto.presenteId)),
-  );
+  /**Validando se esse presente ja esta reservado */
+  const { err: erroBuscaQuatidade, v: quantidadeReservado } = await repo.CountReservaByPresenteId(dto.presenteId);
   if (erroBuscaQuatidade) return E.Fail(erroBuscaQuatidade);
-  if (quantidadeReservado?.[0].count) {
+  if (quantidadeReservado >= 1) {
     return E.Fail(new NegotiateException("Presente ja reservado", "rule_businnes"));
   }
-  let { err: errUser, v: userEncounted } = await E.Db(
-    db.select().from(user).where(eq(user.numero, numeroLimpo)).limit(1),
-  );
+
+  /**Buscando ou criando o usuario que esta fazendo a reserva */
+  let { err: errUser, v: userEncounted } = await repo.FindUserByNumero(numeroLimpo);
   if (errUser) return E.Fail(errUser);
 
-  if (!userEncounted || !userEncounted.length) {
-    const { err } = await GerarUsuario(dto);
+  if (!userEncounted) {
+    const { err, v } = await GerarUsuario(dto);
     if (err) return E.Fail(err);
-
-    const { err: errUser, v } = await E.Db(
-      db.select().from(user).where(eq(user.numero, numeroLimpo)).limit(1),
-    );
-    if (errUser) return E.Fail(errUser);
     userEncounted = v;
   }
 
-  const { err: errPresente, v } = await E.Db(
-    db.select().from(presente).where(eq(presente.id, dto.presenteId)).limit(1),
-  );
-  if (errPresente) return E.Fail(errPresente);
-
-  const [u] = userEncounted;
-  const [p] = v;
-
-  if (!p || !u) {
-    return E.Fail(
-      new NegotiateException("Registro não encontrado", "rule_businnes"),
-    );
-  }
-
+  /** Salvando a reserva do presente */
   const { err: errInsertConvidado } = await E.Db(
     db.insert(convidado).values({
       messagem: dto.mensagem,
-      userId: u.id,
-      presenteId: p.id,
+      userId: userEncounted.id,
+      presenteId: presenteEncontrado.id,
     }),
   );
   if (errInsertConvidado) return E.Fail(errInsertConvidado);
@@ -132,25 +110,27 @@ export async function ReservarPresente(
   return E.Ok(true);
 }
 
-async function GerarUsuario(dto: ReservarPresenteInput): E.R<string> {
+async function GerarUsuario(dto: ReservarPresenteInput): E.R<UserModel> {
   const numeroLimpo = SanitizarNumero(dto.numero);
   if (numeroLimpo.length < 9) {
-    return E.Fail(
-      new NegotiateException("Insira um número valido", "validation"),
-    );
+    return E.Fail(new NegotiateException("Insira um número valido", "validation"));
   }
 
-  const { err: errUser } = await E.Db(
-    db.insert(user).values({
-      name: dto.nomeCompleto.trim(),
-      numero: numeroLimpo,
-    }),
+  const { err: errUser, v } = await E.Db(
+    db
+      .insert(user)
+      .values({
+        name: dto.nomeCompleto.trim(),
+        numero: numeroLimpo,
+      })
+      .returning(),
   );
   if (errUser) return E.Fail(errUser);
 
-  return E.Ok("");
+  return E.Ok(v[0]);
 }
 
 function SanitizarNumero(n: string) {
   return n?.replace(/[^0-9]/gi, "");
 }
+

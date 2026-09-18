@@ -5,7 +5,7 @@ import { CheckDatabaseConnection } from "@/src/infra/db/index";
 (async () => {
   const dbIsRunning = await CheckDatabaseConnection();
   if (dbIsRunning) {
-    // await Migrate()
-    StartServer(3333);
+    await Migrate()
+    // StartServer(3333);5
   }
 })();
