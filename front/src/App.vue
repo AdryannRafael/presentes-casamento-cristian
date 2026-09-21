@@ -321,9 +321,8 @@ const linkWhatsappConfirmacao = computed(() => {
         <p
           class="mx-auto mt-6 max-w-md text-sm leading-relaxed text-ink/70 sm:text-base"
         >
-          Escolhemos com carinho esta lista para quem quiser nos ajudar a
-          construir o começo da nossa nova casa. Sua presença já é o maior
-          presente — mas se quiser nos mimar, ficaremos muito felizes.
+        Escolhemos esta lista com carinho para quem quiser nos ajudar nesse início da nossa vida a dois. 💚 <br/>
+        Se preferir nos presentear de forma física, também ficaremos muito felizes! O que importa é o carinho e, acima de tudo, a sua presença nesse dia tão especial.
         </p>
       </div>
     </header>
@@ -695,8 +694,9 @@ const linkWhatsappConfirmacao = computed(() => {
               Reserva confirmada!
             </h2>
             <p class="mt-1 text-sm text-ink/60">
-              Muito obrigado, {{ form.nome.split(" ")[0] }}! Ficamos muito
-              felizes com seu carinho.
+              Muito obrigado, {{ form.nome.split(" ")[0] }}! Presente reservado com sucesso! ❤️ <br/>
+              Obrigado pelo carinho e por fazer parte desse momento tão especial. 🥰 <br/>
+              Será enviado uma mensagem de confirmação no seu Whatsapp!
             </p>
           </div>
 
@@ -720,15 +720,6 @@ const linkWhatsappConfirmacao = computed(() => {
               </button>
             </div>
           </div>
-
-          <a
-            :href="linkWhatsappConfirmacao"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-sage-600 py-3 text-sm font-medium text-white hover:bg-sage-700"
-          >
-            Confirmar via WhatsApp
-          </a>
 
           <button
             type="button"
